@@ -1,6 +1,9 @@
 from django.db import models
 
-class terefa(models.Model):
+class Tarefa(models.Model):
     nome = models.CharField(max_length = 100)
-    satus = models.CharField(max_length = 20)
+    status = models.CharField(max_length = 20)
     prazo = models.DateField()
+
+    def __str__(self):
+        return self.nome

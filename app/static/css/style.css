@@ -1,0 +1,7 @@
+.atraso{
+    color: red;
+}
+
+.atraso:hover{
+    size: 20%;
+}
